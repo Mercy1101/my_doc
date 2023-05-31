@@ -66,15 +66,17 @@ return
     SetColour(110, 115)
 return
 
-; 分析、评论：紫色
+; 重要内容：红色
 ; Alt+4
 !4::
+    SetColour(20, 100)
+return
+
+
+; 分析、评论：紫色
+; Alt+5
+!5::
     SetColour(20, 115)
 return
 
-; 重要内容：红色
-; Alt+5
-!5::
-    SetColour(20, 100)
-return
 
